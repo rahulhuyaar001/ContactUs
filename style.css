@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: aqua;
+}
+
+.container {
+  width: 85%;
+  margin: 30px auto;
+}
+.container p {
+  margin-bottom: 20px;
+}
+.box {
+  width: 100%;
+  display: flex;
+}
+
+.box .left-col {
+  flex-basis: 50%;
+  background-color: #fff;
+  padding: 25px 50px;
+}
+
+.box .right-col {
+  flex-basis: 50%;
+  background-color: rgb(44, 10, 98);
+  color: #fff;
+  padding: 25px 35px;
+}
+
+.left-col h3 {
+  margin-bottom: 30px;
+  color: rgb(93, 11, 126);
+}
+.right-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  flex-basis: 45%;
+}
+.input {
+  flex-basis: 46%;
+}
+
+.input input {
+  width: 100%;
+  padding: 4px 0;
+  border: none;
+  border-bottom: 1px solid rgb(163, 163, 163);
+  outline: none;
+}
+textarea {
+  padding: 5px 8px;
+  outline: none;
+}
+label {
+  color: rgb(93, 11, 126);
+  margin-bottom: 10px;
+}
+.textarea {
+  margin-top: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn button {
+  padding: 10px 50px;
+  background-color: rgb(44, 10, 98);
+  font-weight: 500;
+  font-size: 16px;
+  margin: 20px 0;
+  color: #fff;
+  border-radius: 30px;
+  
+  cursor: pointer;
+  border: none;
+
+  margin: 15px 20px;
+}
+
+.btn button:hover {
+  opacity: 0.9;
+  box-shadow: -1px 0px 10px 0px rgba(44, 10, 98, 0.815);
+}
+
+.para {
+  display: flex;
+  font-size: 15px;
+  margin-top: 15px;
+  align-items: center;
+}
+.para p {
+}
+
+.para-col {
+  margin-top: 45px;
+}
